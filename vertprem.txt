@@ -1,8 +1,5 @@
-﻿--resell your acc got steal
+--resell your acc got steal
 --Owner Introvert_7672
-
-
-
 
 MessageBox("Vert PROXY", "Proxy Started.")
 function FChat(txt)
@@ -65,14 +62,6 @@ telex,teley = -1,-1
 gaspullshit = false
 specialblink = false
  HookChecker = true
-  stopSB = 40
-  amountSB = 0
-
-  SbRunner = false
-
-  textSB = "438ht4372h8t9h78eqwr978g98ugherwq8gyr9y8gewtrgy98"
-
-  chat = "action|input\ntext|"
 
     SuperContent = "Sc Proxy by @Introvert_7672"
   SuperBroadCastsDone = 0
@@ -224,7 +213,7 @@ function printa(v)
             SendVarlist(p)
         end
     elseif v[0] == "OnSDBroadcast" then
-        Fchat("`w[`^introvert`w] [Blocked SBD]")
+        FChat("`w[`^introvert`w] [Blocked SBD]")
         return true
     elseif v[0] == "OnConsoleMessage" then
         msg = "`w[`^introvert_7672`w] " .. v[1]
